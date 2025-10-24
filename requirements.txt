@@ -1,0 +1,55 @@
+# Core Data Science Stack
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Time Series & Statistical Models
+statsmodels>=0.14.0
+arch>=6.2.0  # For GARCH models
+prophet>=1.1.0  # Facebook's time series forecasting
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+tensorflow>=2.13.0  # For LSTM models
+keras>=2.13.0
+
+# Optimization
+cvxpy>=1.4.0  # Convex optimization
+pypfopt>=1.4.0,<1.5.0 # Portfolio optimization
+
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+
+# Financial Data & Analysis
+yfinance>=0.2.0  # For comparative analysis
+
+# API & Data Collection
+requests>=2.31.0
+beautifulsoup4>=4.12.0  # Web scraping if needed
+
+# Jupyter & Interactive Development
+jupyter>=1.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.1.0
+
+# Dashboard (Optional)
+streamlit>=1.28.0  # For interactive dashboard
+
+# Progress Bars & Utilities
+tqdm>=4.66.0
+python-dotenv>=1.0.0  # Environment variable management
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code Quality
+black>=23.9.0  # Code formatting
+flake8>=6.1.0  # Linting
+
+# Specific for Energy Data
+pvlib>=0.10.0  # Solar energy modeling
