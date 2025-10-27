@@ -367,7 +367,7 @@ def create_summary_dashboard(
     
     # Load vs Renewables
     ax6 = fig.add_subplot(gs[2, 1])
-    daily_df = df.set_index('datetime').resample('D').mean()
+    daily_df = df.set_index('datetime').resample('D').mean(numeric_only=True)
     ax6.scatter(daily_df['system_load_mw'], daily_df['total_renewable_mw'], 
                 alpha=0.5)
     ax6.set_title('Load vs Renewable Generation', fontweight='bold')

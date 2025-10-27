@@ -25,6 +25,8 @@ venv/
 ENV/
 env/
 .venv
+tf-venv/
+*.egg-info/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -53,6 +55,9 @@ results/figures/*.jpg
 results/figures/*.pdf
 results/reports/*.html
 results/reports/*.pdf
+results/*.png
+docs/*.png
+EOF
 
 # Environment variables
 .env
@@ -68,3 +73,9 @@ htmlcov/
 
 # OS
 Thumbs.db
+.DS_Store
+
+# Model files (large files)
+*.h5
+*.pkl
+*.joblib

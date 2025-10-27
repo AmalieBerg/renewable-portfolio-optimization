@@ -16,7 +16,8 @@ keras>=2.13.0
 
 # Optimization
 cvxpy>=1.4.0  # Convex optimization
-pypfopt>=1.4.0,<1.5.0 # Portfolio optimization
+# pypfopt==1.6.1 # Portfolio optimization
+git+https://github.com/robertmartin8/PyPortfolioOpt.git
 
 
 # Data Visualization
