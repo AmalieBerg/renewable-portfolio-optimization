@@ -79,3 +79,7 @@ Thumbs.db
 *.h5
 *.pkl
 *.joblib
+
+# Ignore large scenario files
+data/solar_scenarios_corrected.npy
+data/wind_scenarios_corrected.npy
