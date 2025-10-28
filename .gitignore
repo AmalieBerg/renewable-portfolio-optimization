@@ -83,3 +83,7 @@ Thumbs.db
 # Ignore large scenario files
 data/solar_scenarios_corrected.npy
 data/wind_scenarios_corrected.npy
+
+data/*.npy
+
+
