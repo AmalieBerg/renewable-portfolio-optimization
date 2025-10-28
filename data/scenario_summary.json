@@ -1,0 +1,9 @@
+{
+  "wind_mean_cf": 0.37000651154163283,
+  "wind_std_cf": 0.22003008339765356,
+  "solar_mean_cf": 0.17406502812295976,
+  "solar_std_cf": 0.24686362064070672,
+  "wind_solar_correlation": -0.0035870040623835384,
+  "n_scenarios": 10000,
+  "n_hours": 8760
+}
